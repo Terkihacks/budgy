@@ -1,6 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Budgy - Personal Finance Manager
 
-## Getting Started
+A modern personal finance management application built with Next.js 14, featuring real-time transaction tracking, category management, and financial analytics.
+
+## 🚀 Features
+
+- **Authentication**: Secure user authentication with Clerk
+- **Transaction Management**: Track income and expenses
+- **Category Organization**: Customizable transaction categories
+- **Financial Analytics**: Visual representations of spending patterns
+- **Data Export**: Export transactions to CSV
+- **Dark Mode Support**: Toggle between light and dark themes
+
+## 🛠 Tech Stack
+
+- **Frontend**: Next.js 14, React, TailwindCSS
+- **Backend**: Next.js API Routes
+- **Database**: PostgreSQL with Prisma ORM
+- **Authentication**: Clerk
+- **State Management**: TanStack Query
+- **UI Components**: shadcn/ui
+- **Styling**: Tailwind CSS
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Terkihacks/budgy.git
+cd budgy
+```
 
 First, run the development server:
 
@@ -14,7 +41,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:4000](http://localhost:4000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
